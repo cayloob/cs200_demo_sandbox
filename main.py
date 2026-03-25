@@ -7,15 +7,15 @@ def func1():
         x = int(input('num:'))
     return lst
 
-def func2(data):
+def func2(info):
     print('Here is the data:')
-    print(data)
+    print(info)
 
     response = ''
     while True:
         response = input('Select an option. 1-sum  2-min  3-max  4-quit')
         if response == '1':
-            print('The sum is',sum(data))
+            print('The sum is',sum(info))
         elif response == '2':
             print('Not supported yet')
         elif response == '3':
