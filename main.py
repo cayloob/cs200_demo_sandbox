@@ -9,6 +9,16 @@ def func1():
     return lst
 
 
+def foo(x, y):
+    return (x*y)+1
+
+
+def bar(w, v):
+    for i in range(v):
+        w += v
+    return w
+
+
 def func2(info):
     print('Here is the data:')
     print(info)
